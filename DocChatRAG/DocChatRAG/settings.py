@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'api',
     'ingestion',
     'retrieval',
-    
+    'chat',
 ]
 
 MIDDLEWARE = [
