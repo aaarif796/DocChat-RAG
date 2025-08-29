@@ -14,7 +14,7 @@ from langchain_community.document_loaders import (
     UnstructuredImageLoader
 )
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from DocChatRAG.retrieval.store import vector_store_manager
+from retrieval.store import vector_store_manager
 
 logger = logging.getLogger(__name__)
 
